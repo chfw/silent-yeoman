@@ -1,0 +1,29 @@
+{
+  "name": "syo",
+  "version": "0.0.1",
+  "description": "slient yo does not ask questions and just do as requested",
+  "main": "syo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "yeoman",
+    "cli"
+  ],
+  "author": "C.W.",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "diff": "^1.3.2",
+    "events": "^1.0.2",
+    "inquirer": "^0.8.2",
+    "lodash": "^3.7.0",
+    "log-symbols": "^1.0.2",
+    "minimist": "^1.1.1",
+    "text-table": "^0.2.0",
+    "yeoman-environment": "^1.2.5"
+  },
+  "bin": {
+    "syo": "syo.js"
+  }
+}
