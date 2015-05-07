@@ -5,9 +5,16 @@ This package is targetted at yeoman generator developers and you must have your 
 ## Obtain it
 
 ```bash
- git clone http://github.com/chfw/silient-yeoman.git
- npm install . -g
+npm install syo -g
 ```
+
+## Develop it
+
+```bash
+git clone http://github.com/chfw/silient-yeoman.git
+npm install . -g
+```
+
 
 ## Usage
 
