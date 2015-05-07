@@ -6,7 +6,6 @@ var chalk = require('chalk');
 var events = require('events');
 var _ = require('lodash');
 var logger = require('./log.js');
-var log = function(){}
 
 function DummyPrompt(answers, q) {
   this.answers = answers;
@@ -17,6 +16,10 @@ DummyPrompt.prototype.run = function (cb) {
   var answer = this.answers[this.question.name];
   var isSet;
 
+  console.log(this.answers);
+  console.log(this.question.name);
+  console.log(answer);
+
   switch (this.question.type) {
     case 'list':
       // list prompt accepts any answer value including null
@@ -25,6 +28,9 @@ DummyPrompt.prototype.run = function (cb) {
     case 'confirm':
       // ensure that we don't replace `false` with default `true`
       isSet = answer || answer === false;
+      break;
+    case 'input':
+      isSet = true;
       break;
     default:
       // other prompts treat all falsy values to default
@@ -120,4 +126,4 @@ TerminalAdapter.prototype.diff = function _diff(actual, expected) {
  * Logging utility
  * @type {env/log}
  */
-TerminalAdapter.prototype.log = logger;
+TerminalAdapter.prototype.log = logger();
