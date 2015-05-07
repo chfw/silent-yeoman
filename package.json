@@ -28,6 +28,7 @@
     "syo": "syo.js"
   },
   "devDependencies": {
-    "yeoman-generator": "^0.19.2"
+    "yeoman-generator": "^0.19.2",
+    "yosay": "^1.0.3"
   }
 }
