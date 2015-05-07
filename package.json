@@ -26,5 +26,8 @@
   },
   "bin": {
     "syo": "syo.js"
+  },
+  "devDependencies": {
+    "yeoman-generator": "^0.19.2"
   }
 }
