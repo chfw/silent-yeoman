@@ -1,6 +1,6 @@
 {
   "name": "syo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "slient yo does not ask questions and just do as requested",
   "main": "syo.js",
   "scripts": {
