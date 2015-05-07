@@ -1,8 +1,12 @@
 {
-  "name": "syo",
-  "version": "0.0.2",
-  "description": "slient yo does not ask questions and just do as requested",
+  "name": "silent-yeoman",
+  "version": "0.0.4",
+  "description": "In continuous integration context, a silent yeoman(syo) is preferred than an interactive one",
   "main": "syo.js",
+  "repository": {
+    "type":"git",
+    "url": "https://github.com/chfw/silent-yeoman"
+  },
   "scripts": {
     "test": "node test/test.js"
   },
