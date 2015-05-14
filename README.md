@@ -1,11 +1,11 @@
-# silent-yeoman [![Build Status](https://travis-ci.org/chfw/silent-yeoman.svg?branch=master)](https://travis-ci.org/chfw/silent-yeoman)
+# silent-yeoman [![Build Status](https://travis-ci.org/chfw/silent-yeoman.svg?branch=v0.0.2)](https://travis-ci.org/chfw/silent-yeoman/builds/61603181)
 
 This package is targetted at yeoman generator developers and you must have your generator source code checked out.
 
 ## Obtain it
 
 ```bash
-npm install syo -g
+npm install silent-yeoman -g
 ```
 
 ## Develop it
