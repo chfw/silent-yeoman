@@ -1,6 +1,6 @@
 {
   "name": "silent-yeoman",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "In continuous integration context, a silent yeoman(syo) is preferred than an interactive one",
   "main": "syo.js",
   "repository": {
